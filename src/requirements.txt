@@ -18,3 +18,4 @@ branca
 folium
 mapclassify
 streamlit
+pickle
