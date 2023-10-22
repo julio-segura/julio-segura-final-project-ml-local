@@ -17,3 +17,4 @@ geopandas
 branca
 folium
 mapclassify
+streamlit
