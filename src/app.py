@@ -1,7 +1,7 @@
 import streamlit as st
 from pickle import load
 
-with open(r'C:\Users\PC\OneDrive\Escritorio\DS_Bootcamp\Proyecto_Final\julio-segura-final-project-ml-local\models\rwanda-co2-emissions-xgboost.sav', 'rb') as f:
+with open(r"../models/rwanda-co2-emissions-xgboost.sav", 'rb') as f:
     model = load(f)
 
 st.title ('CO2 Emissions Prediction in Rwanda')
