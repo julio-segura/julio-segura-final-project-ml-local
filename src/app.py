@@ -21,10 +21,6 @@ st.header('Calculate the Prediction')
 
 latitude = st.slider('Latitude', min_value = -2.84, max_value = -1.04, step = 0.01 )
 
-year = st.slider('Year', min_value = 2019, max_value = 2022, step = 1 )
-# year = st.selectbox('Year', '2019', '2020', '2021', '2022')
-# st.write('Emmission': year)
-
 km_to_worst = st.slider('Distance to the worst point of CO2 emision (in Km)', min_value = 0.0, max_value = 10000.0, step = 1.0 )
 
 SulphurDioxide_sensor_azimuth_angle  = st.slider('Sulphur Dioxide Sensor Azimuth Angle' , min_value = 0, max_value = 360, step = 1)
@@ -61,6 +57,9 @@ Ozone_O3_effective_temperature  = st.slider('Ozone Effective Temperature' , min_
 
 Cloud_surface_albedo  = st.slider('Cloud Surface Albedo' , min_value = 0.0, max_value = 100.0, step = 1.0)
 
+year = st.slider('Year', min_value = 2019, max_value = 2022, step = 1 )
+# year = st.selectbox('Year', '2019', '2020', '2021', '2022')
+# st.write('Emmission': year)
 
 
 if st.button('Predict'):
