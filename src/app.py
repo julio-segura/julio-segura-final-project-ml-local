@@ -57,9 +57,9 @@ Ozone_O3_effective_temperature  = st.slider('Ozone Effective Temperature' , min_
 
 Cloud_surface_albedo  = st.slider('Cloud Surface Albedo' , min_value = 0.0, max_value = 100.0, step = 1.0)
 
-month = st.slider('Month', min_value = 2019, max_value = 2022, step = 48 )
+year = st.slider('Year', min_value = 2019, max_value = 2022, step = 1 )
 # year = st.selectbox('Year', '2019', '2020', '2021', '2022')
-# st.write('Emmission': month
+# st.write('Emmission': year)
 
 
 if st.button('Predict'):
