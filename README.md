@@ -14,4 +14,4 @@ As this was my first big Machine Learning project, I've taken inspiration from t
 - https://github.com/codekalimi/predict-CO2-emissions-in-rwanda
 - https://github.com/manaswipatil11/CO2_Emission_Prediction_Rwanda
 - https://www.kaggle.com/code/mauriciovellasquez/prediction-of-rwanda-s-co2-emissions/notebook
-- 
+  
