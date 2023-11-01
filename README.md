@@ -8,3 +8,10 @@ Features:
 - Prediction: Utilizes machine learning algorithms to predict future CO2 levels based on various features.
 - Model Evaluation: Displays metrics to evaluate the performance of the predictive model.
 - Interactive Maps: Geospatial representation of CO2 levels across different regions in Rwanda.
+
+
+As this was my first big Machine Learning project, I've taken inspiration from the following works:
+- https://github.com/codekalimi/predict-CO2-emissions-in-rwanda
+- https://github.com/manaswipatil11/CO2_Emission_Prediction_Rwanda
+- https://www.kaggle.com/code/mauriciovellasquez/prediction-of-rwanda-s-co2-emissions/notebook
+- 
